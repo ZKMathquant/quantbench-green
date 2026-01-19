@@ -1,9 +1,12 @@
 [green_agent]
-agentbeats_id = "quantbench-green"
+image = "ghcr.io/zkmathquant/quantbench-green:latest"
 
 [[participants]]
-agentbeats_id = "purple-agent"
+agentbeats_id = "your-purple-agent-id"
 name = "agent"
+image = "ghcr.io/zkmathquant/quantbench-purple:latest"
 
 [config]
 seed = 42
+
+
