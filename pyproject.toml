@@ -1,0 +1,16 @@
+[project]
+name = "quantbench"
+version = "2.0.0"
+description = "Research-grade multi-asset financial agent benchmark"
+requires-python = ">=3.11"
+
+[project.scripts]
+verify-reproducibility = "verify_reproducibility:main"
+
+[tool.setuptools]
+packages = ["evaluator"]
+
+[tool.pytest.ini_options]
+testpaths = ["evaluator/tests"]
+pythonpath = ["."]
+

@@ -1,0 +1,9 @@
+[green_agent]
+agentbeats_id = "quantbench-green"
+
+[[participants]]
+agentbeats_id = "purple-agent"
+name = "agent"
+
+[config]
+seed = 42
