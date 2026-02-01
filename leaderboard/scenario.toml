@@ -1,0 +1,10 @@
+[green_agent]
+image = "ghcr.io/zkmathquant/quantbench-green:latest"
+
+[[participants]]
+agentbeats_id = "019bd69d-b28f-7530-ae19-69f95d5825b5"  # Your actual agent ID
+name = "baseline-agent"
+image = "ghcr.io/zkmathquant/quantbench-purple:latest"
+
+[config]
+seed = 42

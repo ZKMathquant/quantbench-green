@@ -1,0 +1,11 @@
+[benchmark]
+name = "QuantBench-v2"
+seed = 42
+regimes = ["flash_crash", "volatility_spike", "correlation_break"]
+
+[tasks]
+enabled = ["portfolio", "regime_detection", "arbitrage", "execution"]
+
+[data]
+source = "yahoo"
+frozen = true

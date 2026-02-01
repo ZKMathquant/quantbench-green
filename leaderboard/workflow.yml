@@ -1,0 +1,17 @@
+name: Evaluate Agent
+
+on:
+  push:
+    branches: ["**"]
+
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+#      - run: docker pull ghcr.io/quantbench/green:latest
+#      - run: docker run ghcr.io/quantbench/green:latest
+      
+      
+      
+
